@@ -78,7 +78,7 @@ function Userdrop(props) {
             </span>
             <a
               href="/user"
-              className="dropdown-item flex space-x-2 items-center w-fit clickable size-125"
+              className="dropdown-items flex space-x-2 items-center w-fit clickable size-125"
             >
               <svg
                 className="w-5 h-5 block logo-color"
@@ -96,7 +96,7 @@ function Userdrop(props) {
             </a>
             <a
               href="/favoris"
-              className="dropdown-item flex space-x-2 align-center w-fit clickable size-125"
+              className="dropdown-items flex space-x-2 align-center w-fit clickable size-125"
             >
               <svg
                 className="w-5 h-5 logo-color"

@@ -1974,17 +1974,17 @@ fieldset[disabled] .button {
   padding-top: 0.5rem;
 }
 .dropdown-item {
-  /* display: block; */
+  display: block;
   font-size: 0.875rem;
   line-height: 1.5;
   padding: 0.375rem 1rem;
   position: relative;
 }
 .dropdown-items {
-  display: block;
+  display: flex !important;
   font-size: 0.875rem;
   line-height: 1.5;
-  padding: 0rem 1rem;
+  padding: 0.375rem 1rem;
   position: relative;
 }
 .modal-close {
@@ -2052,7 +2052,7 @@ fieldset[disabled] .button {
 .delete::after,
 .delete::before {
   background-color: rgb(48, 48, 48);
-  content: '';
+  content: "";
   display: block;
   left: 50%;
   position: absolute;
@@ -2063,7 +2063,7 @@ fieldset[disabled] .button {
 .modal-close::after,
 .modal-close::before {
   background-color: rgb(48, 48, 48);
-  content: '';
+  content: "";
   display: block;
   left: 50%;
   position: absolute;
@@ -2167,12 +2167,29 @@ button.dropdown-item:hover {
   background-color: #004e6617;
   color: #0a0a0a;
 }
+
+a.dropdown-items,
+button.dropdown-items {
+  text-align: inherit;
+  white-space: nowrap;
+  width: 100%;
+}
+a.dropdown-items:hover,
+button.dropdown-items:hover {
+  background-color: #004e6617;
+  color: #0a0a0a;
+}
 .items-perm {
   background-color: #004e6617;
   color: #0a0a0a;
 }
 a.dropdown-item.is-active,
 button.dropdown-item.is-active {
+  background-color: #3273dc;
+  color: #fff;
+}
+a.dropdown-items.box,
+button.dropdown-items.is-active {
   background-color: #3273dc;
   color: #fff;
 }
