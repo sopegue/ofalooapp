@@ -73,15 +73,15 @@ function Userdrop(props) {
               </div>
             </div>
             <hr className="dropdown-divider" />
-            <span className="size-135 font-semibold dropdown-item">
+            <span className="size-135 font-semibold dropdown-item block pb-5">
               Mon compte
             </span>
             <a
               href="/user"
-              className="dropdown-item flex space-x-2 align-center w-fit clickable size-125"
+              className="dropdown-item flex space-x-2 items-center w-fit clickable size-125"
             >
               <svg
-                className="w-5 h-5 logo-color"
+                className="w-5 h-5 block logo-color"
                 fill="currentColor"
                 viewBox="0 0 20 20"
                 xmlns="http://www.w3.org/2000/svg"
@@ -92,7 +92,7 @@ function Userdrop(props) {
                   clipRule="evenodd"
                 ></path>
               </svg>
-              <span>Profil</span>
+              <span className="block">Profil</span>
             </a>
             <a
               href="/favoris"
