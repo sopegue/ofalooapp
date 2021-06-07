@@ -1,0 +1,273 @@
+html {
+  height: 100%;
+  width: 100%;
+  background-color: #e2e8f0;
+}
+body,
+html {
+  scroll-behavior: smooth !important;
+}
+.twi-col {
+  color: #1da1f2 !important;
+}
+a,
+p,
+span,
+div {
+  font-size: 14px;
+  /* color: #2d3748; */
+}
+.is-36x36 {
+  height: 40px !important;
+  width: 40px !important;
+}
+.image.is-36x36 {
+  height: 36px;
+  width: 36px;
+}
+.lefts {
+  left: 0;
+}
+.invisibles {
+  visibility: hidden !important;
+}
+.visibles {
+  visibility: visible !important;
+}
+.parent_hover_under:hover span {
+  text-decoration: underline;
+}
+.max-w-x1366 {
+  max-width: 1400px !important;
+  min-width: 340px !important;
+}
+.min-w340 {
+  min-width: 340px !important;
+}
+svg {
+  color: #1f2937;
+}
+.saved {
+  fill: currentColor !important;
+}
+.notsaved {
+  fill: #00000041 !important;
+}
+.col-1f2937 {
+  color: #1f2937;
+}
+.col-008489 {
+  color: #008489;
+}
+.noclick {
+  pointer-events: none !important;
+  color: #bebebe !important;
+}
+.noclick div,
+.noclick span,
+.noclick input,
+.noclick img,
+.noclick video,
+.noclick a,
+.noclick p,
+.noclick table,
+.noclick label,
+.noclick h4,
+.noclick h3,
+.noclick h2,
+.noclick h1,
+.noclick * {
+  color: #bebebe !important;
+  pointer-events: none !important;
+}
+.click {
+  pointer-events: all !important;
+}
+.rate {
+  float: left;
+  height: 32px;
+}
+.-mtdsd {
+  position: relative !important;
+  top: -2rem !important;
+}
+#yt iframe {
+  width: 75% !important;
+  height: 460px !important;
+}
+@media screen and (max-width: 910px) {
+  #yt iframe {
+    width: 100% !important;
+  }
+}
+@media screen and (max-width: 740px) {
+  #yt iframe {
+    height: 360px !important;
+  }
+}
+@media screen and (max-width: 500px) {
+  #yt iframe {
+    height: 240px !important;
+  }
+}
+.rate:not(:checked) > input {
+  position: absolute;
+}
+.rate:not(:checked) > label {
+  float: right;
+  width: 1em;
+  overflow: hidden;
+  white-space: nowrap;
+  cursor: pointer;
+  font-size: 30px;
+  color: #e2e8f0;
+}
+.rate:not(:checked) > label:before {
+  content: "★ ";
+}
+.rate > input:checked ~ label {
+  color: #ff9900;
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+  color: #ffbb00e8;
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+  color: #ffae00;
+}
+
+table td,
+table th {
+  border-width: 1px;
+  border-color: #004e662a;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+  padding-top: 0.2rem !important;
+  padding-bottom: 0.2rem !important;
+}
+tr > :first-child {
+  background-color: #e2e8f0;
+}
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  /* font-weight: 400 !important; */
+}
+.bg-foot {
+  background-color: #161b22 !important;
+}
+.trans-ease {
+  transition: 300ms ease all !important;
+}
+.logo-color {
+  color: #2d3748 !important;
+}
+.bglogo-color {
+  background-color: #282828 !important;
+}
+.z-40x {
+  z-index: 40 !important;
+}
+.z-10x {
+  z-index: 10 !important;
+}
+.d-spec {
+  min-width: min-content !important;
+}
+.color-4a {
+  color: #4a4a4a;
+}
+.color-bg {
+  color: #e2e8f0 !important;
+}
+.color-bgs {
+  color: #b5bbc4;
+}
+.bg-e6e6e6 {
+  background-color: #eff0f06b;
+}
+.bg-e6e6e6s {
+  background-color: #838383c5;
+}
+.bg-trt {
+  background-color: #e2e8f0 !important;
+}
+.b612 {
+  font-family: "B612", Arial, Helvetica, sans-serif;
+}
+.mb4px {
+  margin-bottom: 2px;
+}
+/* The container */
+.container {
+  display: block;
+  position: relative;
+  padding-left: 25px;
+  margin-bottom: 4px;
+  margin-top: 4px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 14px;
+  width: 14px;
+  background-color: rgb(216, 216, 216);
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+  background-color: rgb(194, 194, 194);
+}
+
+/* When the checkbox is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background-color: #007092;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+  left: 5px;
+  top: 1.7px;
+  width: 4px;
+  height: 8px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}

@@ -1,0 +1,9 @@
+.NuxtLogo {
+  animation: 0.2s appear;
+}
+
+@keyframes appear {
+  0% {
+    opacity: 0;
+  }
+}

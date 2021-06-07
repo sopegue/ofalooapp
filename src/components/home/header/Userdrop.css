@@ -1,0 +1,11 @@
+.user-drop {
+  animation: appear 0.2s;
+  top: 2.7rem !important;
+  right: 0rem !important;
+}
+@keyframes appear {
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+}
