@@ -1,4 +1,6 @@
-# Ofaloo Homepage header with react.js (not finished, just wanted to check if I could switch from vue.js to react.js without changing UI)
+# Ofaloo with react
+
+Ofaloo Homepage header with react.js (not finished, just wanted to check if I could switch from vue.js to react.js without changing UI)
 
 # Getting Started with Create React App
 
