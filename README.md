@@ -1,3 +1,5 @@
+# Ofaloo Homepage header with react.js (not finished, just wanted to check if I could switch from vue.js to react.js without changing UI)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
